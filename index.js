@@ -2,6 +2,8 @@ const express = require('express');
 const request = require('request');
 const app = express();
 
+app.use(express.static('public'));
+
 app.get('/', function(req, res) {
     res.send('<h1>hello</h1>');
 });
