@@ -1,0 +1,19 @@
+body{
+    margin:0px;
+}
+
+h2{
+    margin:0px;
+    padding:15px;
+    background-color:#9ebef2;
+}
+
+#dest_photo{
+    border: 2px solid #b8b4aa;
+    border-radius: 4px;
+}
+
+#dest_map{
+    border: 2px solid #b8b4aa;
+    border-radius: 4px;    
+}
