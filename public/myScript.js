@@ -39,6 +39,6 @@ function populatePage(data){
     document.getElementById("dest_name").innerHTML = data[0].name;
     document.getElementById("dest_rating").innerHTML = data[0].rating;
     document.getElementById("dest_estimate_travel_time").innerHTML = data[0].time;
-    document.getElementById("dest_photo").innerHTML = data[0].photo;
+    document.getElementById("dest_photo").src = data[0].photo;
     document.getElementById("dest_map").src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDa9QtqkcijVkuVjjqoAStEgUNQHyu3I50&q=" + data[0].name;
 }
