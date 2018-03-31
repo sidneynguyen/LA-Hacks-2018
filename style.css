@@ -1,0 +1,72 @@
+body{
+    margin:0px;
+    font-family:Lucida Console;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.title{
+    text-align:center;
+    font-size:300px;
+    font-family: 'Chicle', cursive;
+    color:#d40000;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.nav_bar{
+    color:#ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align:center;
+}
+
+@media screen and (max-width: 999px){
+    .nav_bar{
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:10px;
+    }
+    .title{
+        font-size:100px;
+    }
+    body{
+        background-image:url("adrian-233455-unsplash.jpg");
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .nav_bar{
+        padding-top:15px;
+        padding-left:15px;
+        padding-right:15px;
+        padding-bottom:15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .input_div{
+        display:inline;
+    }
+    .title{
+        font-size:200px;
+    }
+    body{
+        background-image:url("photo-1456949037425-4b097bbcc0e8.jpg");
+    }
+}
+
+input[type=text] {
+    border: 2px solid #b8b4aa;
+    border-radius: 4px;
+}
+
+select {
+    border: 2px solid #b8b4aa;
+    border-radius: 4px;
+}
+
+button {
+    border: 2px solid #b8b4aa;
+    border-radius: 4px;
+}
